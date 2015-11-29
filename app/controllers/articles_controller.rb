@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  # mishanay1 branch
   def index
     @articles = Article.all
   end
@@ -37,7 +38,7 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    
+
   end
 
 private
